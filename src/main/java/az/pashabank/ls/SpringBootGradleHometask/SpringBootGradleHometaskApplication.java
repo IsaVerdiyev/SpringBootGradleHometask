@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 public class SpringBootGradleHometaskApplication {
 
+	private Customer customer;
+
 	public static void main(String[] args) {
 
 	     ApplicationContext context = SpringApplication.run(SpringBootGradleHometaskApplication.class, args);

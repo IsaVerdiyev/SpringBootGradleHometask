@@ -1,17 +1,14 @@
 package az.pashabank.ls.SpringBootGradleHometask;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
 public class Account {
     private Customer customer;
 
-    public Account(Customer customer) {
-        this.customer = customer;
-    }
 
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
 }
